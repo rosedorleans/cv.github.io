@@ -36,6 +36,13 @@ body {
   background-color: var(--third-color);
 }
 
+@media only screen and (max-width : 600px) {
+  .section-2 {
+    top: -50px;
+    padding-top: 10px;
+  }
+}
+
 .section-3{
   background-color: var(--sixth-color);
 }
