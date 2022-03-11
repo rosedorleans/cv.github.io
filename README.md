@@ -1,1 +1,1 @@
-cv.github.io
+rosedorleans.github.io/cv.github.io/
