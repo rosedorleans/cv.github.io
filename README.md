@@ -1,1 +1,1 @@
-rosedorleans.github.io/cv.github.io/
+https://rosedorleans.github.io/cv.github.io/
