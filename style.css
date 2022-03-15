@@ -409,6 +409,24 @@ body {
   transition: .2s;
 }
 
+@media only screen and (max-width: 650px) {
+  #github-logo {
+    height: 40px;
+    top: 2%;
+    right: 2%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projets h2 {
+    padding-top: 20px;
+  }
+  #github-logo {
+    top: 1%;
+    right: 3%;
+  }
+}
+
 .projets-cards {
   width: 80%;
   margin: 0 auto 50px;
@@ -664,7 +682,7 @@ body {
   }
 }
 
-/*  */
+/* width */
 
 @media only screen and (max-width: 930px) {
   .demo-logo {
