@@ -16,20 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <!-- SCROLL -->
-    <script src="jquery.onepage-scroll.js"></script>
+    <!-- ONE PAGE SCROLL -->
     <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-    <script>
-        $(document).ready(function(){
-            $(".home-body").onepage_scroll({
-            sectionContainer: "section",
-            responsiveFallback: 600,
-            loop: false
-            });
-        });
-          
-    </script>
 </head>
 <body>
     <div class="home-body">
@@ -124,6 +112,19 @@
                     </div>
 
                     <figure class="image-block">
+                        <h3>Mouvy</h3>
+                        <img src="images/mouvy-apercu.png" alt="mouvy aperçu" class="figure-image"/>
+                        <figcaption>
+                            <h4>
+                                En cours
+                            </h4>
+                            <p>
+                                Projet perso : chercher un film ou une série par titre ou genre. Les stocker dans des listes et les partager avec ses amis. <b>PHP/HTML/CSS/JS/JQuery</b>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- <figure class="image-block">
                         <h3 id="festipoche-h3">Festip<span>che</span></h3>
                         <img src="images/festipoche-apercu.png" alt="festipoche aperçu" class="figure-image"/>
                         <figcaption>
@@ -135,7 +136,7 @@
                                 de musique avec <b> PHP Symfony</b> et appels avec <b>Dart (Flutter)</b>.
                             </p>
                         </figcaption>
-                    </figure>
+                    </figure> -->
                    
                     <figure class="image-block">
                         <h3>Hephaistos</h3>
@@ -786,8 +787,7 @@
                             <h4>
                                 Janvier 2021
                             </h4>
-                            <p><b>Stage</b> de développement web de <b>2 mois</b> à l'entreprise IRSS. Aide WordPress, carte interactive SVG, module
-                                d'événements, filtres d'événements...</p>
+                            <p>Projet <b>Java</b> à l'école ENI. Vendre des objects aux enchères avec un système de points. Possibilité de se connecter, poster une annonce, enchérir...</p>
                             <!-- <div class="btn-demo">
                                 <img src="images/right-arrow.png" alt="fleche droit">
                                 <a href="projets/eni-encheres/eni-enchere.html">Démonstration</a>
@@ -825,6 +825,7 @@
                         <li>
                             <a href="#diplomes"><b>Diplômes</b></a>
                             <ul>
+                                <li><a href="#cda">CDA</a></li>
                                 <li><a href="#dwwm">DWWM</a></li>
                                 <li><a href="#deug">DEUG</a></li>
                                 <li><a href="#epsaa">EPSAA</a></li>
@@ -834,15 +835,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#expe"><b>Expériences professionnelles</b></a>
+                            <a href="#expe"><b>Anciens jobs</b></a>
                             <ul>
-                                <li>
-                                    <a href="#infor">Informatique</a>
-                                    <ul>
-                                        <li><a href="#encheres">Site d'enchères</a></li>
-                                        <li><a href="#event">Site événementiel</a></li>
-                                    </ul>
-                                </li>
                                 <li><a href="#anim-enfants">Animatrice enfants</a></li>
                                 <li><a href="#cheffe-rang">Cheffe de Rang</a></li>
                                 <li><a href="#barmaid">Barmaid</a></li>
@@ -869,6 +863,39 @@
                     
                     <div class="cv_section" id="diplomes">
                         <h2>Diplômes</h2>
+                        <div class="cv_section" id="cda">
+                            <h3>CDA</h3>
+                            <p>- 2021 / 2022 - <br> <br>
+                                <strong>Concepteur(trice) développeur(euse) d'application</strong><br> <br>
+                                <a href="https://www.epsi.fr/" target="_blank" rel="noopener">
+                                    EPSI Ecole d'ingénierie informatique
+                                </a>
+                                <br> <br>
+                                Objectifs  :
+                                <ul>
+                                    <li>Développer des solutions applicatives adaptées à l’infrastructure en langage objet : java, python, etc</li>
+                                    <li>Tester et intégrer de façon continue des solutions applicatives adaptées à l’infrastructure</li>
+                                    <li>Créer du code avec intégration et livraison continues</li>
+                                    <li>Concevoir et améliorer des bases de données</li>
+                                    <li>Exploiter des bases de données dans un environnement client-serveur</li>
+                                </ul>
+                                <u>Alternance :</u> <br>
+                                - novembre 2021 à septembre 2022 - <br>
+                                Entreprise 
+                                    <a href="https://www.autobonplan.com/" target="_blank" rel="noopener">
+                                        Autobonplan
+                                    </a> 
+                                pour le développement du site interne à l'entreprise. <br>
+                                - Langages : PHP / HTML / CSS / Javascript (JQuery) <br>
+                                - Fonctionnalités : 
+                                <ul>
+                                    <li>affichage automatique des stocks (cron) par fichier CSV depuis le FTP</li>
+                                    <li>upload de fichiers pdf par les utilisateurs</li>
+                                    <li>modification des informations par les utilisateurs et transfert à Hubspot</li>
+                                    <li>affichages dynamique des statistiques de l'entreprise (Chart.js)</li>
+                                </ul>
+                            </p> 
+                        </div>
                         <div class="cv_section" id="dwwm">
                             <h3>DWWM</h3>
                             <p>- 2020 / 2021 - <br> <br>
@@ -974,26 +1001,7 @@
                         </div>
                     </div>
                     <div class="cv_section" id="expe">
-                        <h2>Expériences professionnelles</h2>
-                        <div class="cv_section">
-                            <h3 id="infor">Projets informatiques</h3>
-                            <div class="cv_section">
-                                <h4 id="encheres">Site d'enchères</h3>
-                                <p>- 2021 - <br> <br>
-                                    <b>Premier projet durant la formation de l'ENI Ecole informatique :</b> <br> <br>
-                                    Développement d’un site d’enchères sous Java EE et SQL Server : application web organisée en couches <br>
-                                    Technologies utilisées : HTML5, CSS, Java EE, SQL server, Tomcat
-                                </p>
-                            </div>
-                            <div class="cv_section" id="event">
-                                <h4>Site événementiel</h3>
-                                <p>- 2021 - <br><br>
-                                    <b>Deuxième projet durant la formation de l'ENI Ecole informatique :</b> <br> <br>
-                                    Analyse, conception et développement d’un site d’organisation d’évènements avec JAVA EE et SQL Server / PHP et MySQL : définition de tests et d’outils de passage des tests <br>
-                                    Technologies utilisées : HTML5, CSS, Javascript, PHP & Symfony, MySQL, WAMP server
-                                </p>
-                            </div>
-                        </div>
+                        <h2>Anciens jobs</h2>                       
                         <div class="cv_section" id="anim-enfants">
                             <h3>Animatrice enfants</h3>
                             <p>- ponctuellement de 2016 à 2020 - <br><br>
@@ -1088,6 +1096,8 @@
 
     
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jquery.onepage-scroll.js"></script>
     <script src="script.js"></script>
 </body>
 

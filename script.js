@@ -1,4 +1,11 @@
-
+$(document).ready(function(){
+  $(".home-body").onepage_scroll({
+  sectionContainer: "section",
+  responsiveFallback: 600,
+  loop: false
+  });
+});
+ 
 $(".arrow-down").hide(); 
 setTimeout(function(){ 
 	$(".arrow-down").show(); 
